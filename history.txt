@@ -1,0 +1,59 @@
+    1  cd mysite
+    2  git status
+    3  git add .
+    4  git commit -m "saint francois de la salle, saint jean baptiste de la salle, saint antoine de padoue"
+    5  mkvirtualenv flask-tutorial --python=python3.6
+    6  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+    7  pip freeze > requirements.txt
+    8  git status
+    9  git add .
+   10  git commit -m "on acceuile sans tarder notre deuxieme marcheuse, claire. je travaille dans la restoration des vitraux"
+   11  pip install Flask-Migrate
+   12  export FLASK_APP=flask_app.py
+   13  flask db init
+   14  flask db migrate
+   15  git status
+   16  git add .
+   17  git commit -m "jean michel, choissisez un troisieme theme, sil vous plait"
+   18  pip install Flask-Migrate
+   19  export FLASK_APP=flask_app.py
+   20  flask db init
+   21  flask db migrate
+   22  git status
+   23  git add .
+   24  git commit -m "cadeau pour vous en attendant, pour aprofondir vos connaissances sur la foi chretienne"
+   25  flask db stamp head
+   26  pip freeze > requirements.txt
+   27  git status
+   28  git add .
+   29  git commit -m "quand jesus a du se quitter d'une taxe"
+   30  flask db migrate
+   31  flask db upgrade
+   32  git status
+   33  git add .
+   34  git commit -m "on se resource bien sur, mais il faut revenir le 26 juin. rebienvenus chez vous et vous pretendez a ce titre du marcheur"
+   35  flask db migrate
+   36  flask db upgrade
+   37  flask shell
+   38  echo "# -user-eugeniobinini-files-home-eugeniobinini-mysite" >> README.md
+   39  git init
+   40  git add README.md
+   41  git commit -m "first commit"
+   42  git remote add origin https://github.com/Petersouteneur/-user-eugeniobinini-files-home-eugeniobinini-mysite.git
+   43  git push -u origin master
+   44  echo "# -user-eugeniobinini-files-home-eugeniobinini-mysite" >> README.md
+   45  git init
+   46  git add README.md
+   47  git commit -m "first commit"
+   48  git remote add origin https://github.com/Petersouteneur/-user-eugeniobinini-files-home-eugeniobinini-mysite.git
+   49  git push -u origin master
+   50  echo "# -user-eugeniobinini-files-home-eugeniobinini-mysite" >> README.md
+   51  git init
+   52  git add README.md
+   53  git commit -m "first commit"
+   54  git remote add origin https://github.com/Petersouteneur/-user-eugeniobinini-files-home-eugeniobinini-mysite.git
+   55  git push -u origin master
+   56  history
+   57  history < history.txt
+   58  cat < history.txt
+   59  history > history.txt
